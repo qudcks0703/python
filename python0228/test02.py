@@ -42,3 +42,6 @@ print(name)
 # print("총점=%d \n평균=%f" %(kor+eng+math,(kor+eng+math)/3))
 # print("총점={} \n 평균={}".format((kor+eng+math),(kor+eng+math)/3))
 
+str1="hello"
+print(str1[3:0:-1])
+print("".join(reversed(str1)))
