@@ -24,7 +24,7 @@
 # print(id(num))
 # print(id(num2))
 '''
-'''
+''' saddas
 name=input("이름을 입력하세요.")
 print(name)
 '''
