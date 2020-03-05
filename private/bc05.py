@@ -1,47 +1,56 @@
-# try:
-#     4/0
-# except ZeroDivisionError as z:
-#     print(z)
-# finally:
-#     print("빠이")
-#pass 오류회피
-#raise Error이름 에러 발생시키기
-#dir 자체함수 보기
-# #divmod 나머지와 몫을 구함
-# # result1,result2=divmod(2,1)
-# # print(result1,result2)
-# # #eval 동적 으로 클래스 실행하기 위해사용
-# # def positive(x):
-# #     return x > 0
-# # list1=[1,2,-3,-5,4]
-# # print(list(filter(positive, [1, -3, 2, 0, -5, 6])))
-# # print(list(filter(positive,list1)))
-# # #isinstance(object,class) instanceof
-# # #map(함수,배열 및 반복가능자료형)
-# # #sorted()
-# # print(sorted([3,1,2]))
-# import pickle
-# f = open("test.txt", 'wb')
-# data = {1: 'python', 2: 'you need'}
-# pickle.dump(data, f)
-# f.close()
-# import pickle
-# f = open("test.txt", 'rb')
-# data1 = pickle.load(f)
-# data2 = f.read()
-# print(data1)
-# print(data2)
-# f.close()
+# Strategy:  Iterate over a copy
+# for user, status in users.copy().items():
+#     if status == 'inactive':
+#         del users[user]
 #
-# import webbrowser
-# webbrowser.open("http://google.com")
-#time
-# import time
-# print(time.localtime())
-# print(time.time())
-# print(time.ctime())
-import calendar
-print(calendar.calendar(2020))
-# print(calendar.prcal(2015)) 둘다같음
+# # Strategy:  Create a new collection
+# active_users = {}
+# for user, status in users.items():
+#     if status == 'active':
+#         active_users[user] = status2))
 #
-# print(calendar.prmonth(2020,12))
+# words=['cat','window','me']
+# del words[1]
+# print(words)
+# print(tuple(range(2,2)))
+# for n in range(2,10):
+#     for x in range(2, n):
+#         if n % x == 0:
+#             print(n, 'equals', x, '*', n//x)
+#             break
+#     else:
+#         # loop fell through without finding a factor
+#         print(n, 'is a prime number')
+# #/ float #int
+# for i in range(2,5):
+#     for j in range(2,4):
+#         print("안눙")
+#     else:
+#         print("하이")
+#
+# print()
+#
+# a=1
+# b=2
+# print(a,b)
+# a,b=b,a
+# print(a,b)
+
+def ask_ok(prompt, retries=4, reminder='Please try again!'):
+    while True:
+        ok = input(prompt)
+        if ok in ('y', 'ye', 'yes'):
+            return True
+        if ok in ('n', 'no', 'nop', 'nope'):
+            return False
+        retries = retries - 1
+        print(retries)
+        if retries < 0:
+            raise ValueError('invalid user response')
+        print(reminder)
+def foo(name, **kwds):
+    return 'name' in kwds
+
+kwd={"aa":3,"bb":4}
+
+print(foo('name'))
