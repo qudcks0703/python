@@ -1,0 +1,54 @@
+기술면접 문제
+    1.객체지향(OOP)설계 5가지원칙
+    2.OOP 특징
+    3.object란?
+    4.오버라이딩 vs 오버로딩
+    5.JDBC란?
+    6.interface,abstract ?
+    7. Call by Reference, Call by Value
+    8. Static의 의미
+    9. Garbage Collection(가비지 컬렉션)
+    10. Primitive type과 Reference type
+    11. Wrapper Class
+    12. Thread
+    13. 접근 제한자(public > protected > default > private)
+    14. Stack, Queue
+    15. Singleton Design Pattern(싱글톤 디자인 패턴, 싱글톤 패턴)
+    16. String과 StringBuffer의 차이
+    17. 자바의 메모리 영역? (메서드영역,스택,힙)
+    18. DAO와 DTO
+    19. 변수 명명법
+JSP 질문
+    1. Servlet, JSP?
+    2. Get과 Post 방식?
+    3. Session과 Cookie?
+    4. MVC 패턴?
+데이터베이스 질문
+기술
+    1. 데이터베이스
+    2. 데이터베이스 언어는?(정의어,조작어,제어어)
+    3. 스키마(Schema)
+    4. 무결성
+    5. 뷰
+    6.인덱스 생성시 고려할 사항
+실기
+    1. SELECT문은 무엇입니까?
+    2. 전체 이름이 아닌 이름의 일부로 값을 비교할 수 있는 방법은 무엇입니까?(like 절)
+    3. Insert문은 무엇입니까?
+    4. 데이터베이스에서 레코드는 어떻게 삭제합니까?(DELETE문)
+    5. 테이블에서 어떻게 중복이 없는(별개) 항목을 얻을 수 있습니까?(distinct)
+    6. 어떤 순서로 정렬된 결과를 얻는 방법은 무엇입니까?(order by)
+    7. 테이블의 전체 레코드 수를 어떻게 얻을 수 있습니까?
+    8. GROUP BY는 무엇입니까?
+    9. 테이블을 드롭(DROP)하는 것과 자르는 것(Truncate), 그리고 테이블 내 모든 레코드를 삭제(Delete)하는 것의 차이점은 무엇입니까?
+    10. Where 절과 Having절의 다른 점은 무엇입니까?
+    11.기본키(Primary Key)와 유일키(Unique Key)의 차이점은 무엇입니까?
+    12. 쿼리 순서
+        답: (select -> from ->where ->group by->order by)
+스프링
+기술
+    1. Framework?
+    2. Spring Framework(스프링 프레임워크)?
+    3. 스프링 특징 간단히?
+    4. 스프링 특징 자세히?
+    5. Spring MVC 구조의 처리과정
